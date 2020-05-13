@@ -24,9 +24,9 @@ public class Client {
         outToServer.writeBytes(pass+'\n');
         // Nhan ket qua tu server
         kq=inFromServer.readLine();;
-        if (kq ==1) {
+        if (kq == 1 && n > 0) {
           System.out.println("Pass dung");
-        } else if (kq ==0 && n > 0 {
+        } else if (kq == 0 && n > 0 {
           System.out.println("Pass sai, nhap lai:");
           System.out.println("nhap mat khau :");
           pass=inFromUser.readLine();
