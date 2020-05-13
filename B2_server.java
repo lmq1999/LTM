@@ -1,4 +1,4 @@
-package com.blogspot.sontx.tut.chatroom;
+package Bai2;
 
 import java.io.*;
 import java.net.*;
